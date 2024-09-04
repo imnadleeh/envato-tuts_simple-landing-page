@@ -35,6 +35,10 @@ body {
 
 .logo {
   margin: 15rem 0 8rem 0;
+
+  @media only screen and (max-width: 400px) {
+    margin: 8rem 0 5rem 0;
+  }
 }
 
 h1 {
@@ -57,7 +61,6 @@ h2 {
   @media only screen and (max-width: 640px) {
     font-size: 1.5rem;
   }
-
 }
 
 .discover-btn {
@@ -84,6 +87,10 @@ h2 {
 
 .section-2 {
   margin: 15em 0 0 0;
+
+  @media only screen and (max-width: 400px) {
+    margin: 5rem 0 0 0;
+  }
 }
 
 .ivory-background {
@@ -100,6 +107,10 @@ h2 {
 
   @media only screen and (max-width: 640px) {
     font-size: 0.75rem;
+  }
+
+  @media only screen and (max-width: 400px) {
+    padding: 5rem 0 0 0;
   }
 }
 
@@ -122,6 +133,10 @@ h3 {
   @media only screen and (max-width: 640px) {
     font-size: 0.75rem;
   }
+
+  @media only screen and (max-width: 400px) {
+    font-size: 0.6rem;
+  }
 }
 
 /* .gallery {
@@ -133,9 +148,14 @@ h3 {
 
 .gallery {
   display: flex;
+  justify-content: center;
   padding: 4rem;
   gap: 4rem;
   text-align: start;
+
+  @media only screen and (max-width: 640px) {
+    flex-direction: column;
+  }
 }
 
 .gallery img {
@@ -150,7 +170,7 @@ h3 {
 
   @media only screen and (max-width: 640px) {
     font-size: 1.5rem;
-}
+  }
 }
 
 h4 {
@@ -159,7 +179,7 @@ h4 {
 
   @media only screen and (max-width: 640px) {
     font-size: 1rem;
-}
+  }
 }
 
 .description,
@@ -170,7 +190,7 @@ h4 {
 
   @media only screen and (max-width: 640px) {
     font-size: 0.75rem;
-}
+  }
 }
 
 .outro {
@@ -179,7 +199,7 @@ h4 {
 
   @media only screen and (max-width: 640px) {
     font-size: 0.75rem;
-}
+  }
 }
 
 .send-message,
@@ -191,7 +211,7 @@ h4 {
 
   @media only screen and (max-width: 640px) {
     font-size: 0.75rem;
-}
+  }
 }
 
 .section-outro {
@@ -213,7 +233,7 @@ h4 {
 
   @media only screen and (max-width: 640px) {
     width: 20rem;
-}
+  }
 }
 
 form input,
@@ -280,6 +300,10 @@ form div {
 #store-page h3 {
   font-size: 3.5625rem;
   margin: 1.5rem 0;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 2rem;
+  }
 }
 
 #store-page h2 {
@@ -287,6 +311,10 @@ form div {
   font-weight: 275;
   margin: 1.5rem 0 8rem 0;
   letter-spacing: -1.5px;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 1rem;
+  }
 }
 
 .social-icons {
@@ -304,6 +332,10 @@ footer {
   margin: 6rem 0;
   font-size: 1.125rem;
   font-weight: 400;
+
+  @media only screen and (max-width: 640px) {
+    font-size: 0.75rem;
+  }
 }
 
 footer a {
@@ -313,7 +345,6 @@ footer a {
 }
 
 /* media queries */
-
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
 }
