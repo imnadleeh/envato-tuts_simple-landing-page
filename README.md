@@ -1,6 +1,6 @@
 # Envato Tuts+ - Simple landing page
 
-This is a solution to the https://youtu.be/iG2jotQo9NI?si=SoYooaC410WF2prk&t=23557
+This is a solution to the: https://youtu.be/iG2jotQo9NI?si=SoYooaC410WF2prk&t=23557
 
 ## Overview
 
